@@ -19,7 +19,7 @@ contributions:
       python_name: napari_nucleome._sample_data:make_sample_data
       title: Load sample data from Nucleome Viz
     - id: napari-nucleome.make_qwidget
-      python_name: napari_nucleome._widget:ExampleQWidget
+      python_name: napari_nucleome._widget:NucleomeQWidget
       title: Make example QWidget
     - id: napari-nucleome.make_magic_widget
       python_name: napari_nucleome._widget:example_magic_widget
@@ -44,7 +44,7 @@ contributions:
       key: unique_id.1
   widgets:
     - command: napari-nucleome.make_qwidget
-      display_name: Example QWidget
+      display_name: Nucleome QWidget
     - command: napari-nucleome.make_magic_widget
       display_name: Example Magic Widget
     - command: napari-nucleome.make_func_widget

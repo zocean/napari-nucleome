@@ -27,8 +27,13 @@ You can install `napari-nucleome` via [pip]:
 
     pip install napari-nucleome
 
+## Introduction
+Napari-nucleome is a plugin for napari to visulize multi-plexed FISH data (eg., DNA seqFISH+ data generated in Takei et al., Nature 2021) in napari. This plugin allows users to perform interactive exploration of multi-modal datasets, including imaging, multi-omics and 3D genome structure models for studying the cell nucleus. 
 
+## Demo
 
+The following animation demostrates the use case of explorting DNA seqFISH+ data in napari. Users can query probes by their genomic position, switch different targets, and choose different visualization parameters.
+![](media/napari-nucleome_demo1_AdobeExpress.gif)
 
 ## Contributing
 
